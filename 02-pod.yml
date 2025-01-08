@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1 
+metadata:
+  name: demo
+spec:
+  containers: 
+    - name: nginx
+      image: nginx
+    - name: debug
+      image: rkalluru/debug
+      
